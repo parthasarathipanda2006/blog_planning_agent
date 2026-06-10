@@ -1,21 +1,16 @@
-# Secrets
+venv/
+__pycache__/
+corrective-rag/
+experiments/
+langchain/
+memory-in-llms/
+pydantic-crash-course/
+
 .env
 
+*.db
+*.db-shm
+*.db-wal
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-.venv/
-venv/
-
-# IDE
 .vscode/
 .idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-experiments/
-memory-in-llms/
